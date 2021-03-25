@@ -1,0 +1,65 @@
+.first{ 
+    text-align: center; 
+} 
+*{ 
+    padding: 0px; 
+    margin: 0px; 
+    box-sizing: border-box; 
+} 
+.cara-container{ 
+    width: 50%; 
+    margin:auto;   
+    overflow: hidden; 
+    position: relative;
+}  
+.cara-slide{ 
+    display: flex; 
+    width:100px; 
+    height: 500px;
+}
+#prevbtn{ 
+    position: absolute; 
+    top:50%; 
+    z-index :10;  
+    left: 5%;
+    font-size: 30px; 
+    color: white; 
+    cursor: pointer; 
+
+} 
+#nextbtn{ 
+    position: absolute; 
+    top:50%; 
+    z-index :10; 
+    right: 5%; 
+    font-size: 30px; 
+    color: white; 
+    cursor: pointer; 
+
+}   
+.details{ 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    text-align: center;
+} 
+.second{ 
+    text-align: center; 
+    font-family: 'Lobster', cursive; 
+} 
+.notice{ 
+    font-size: medium; 
+    text-align: center; 
+}
+.prohead{ 
+    text-align: center; 
+    font-family:'Lobster', cursive;  
+
+}  
+.pro{ 
+    height:400px;
+} 
+.intro{  
+    display: flexbox; 
+    align-content: flex-start; 
+    height:100%; 
+} 
+
